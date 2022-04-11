@@ -1,6 +1,7 @@
 package net.linkle.newgrowth;
 
 import net.fabricmc.api.ModInitializer;
+import net.linkle.newgrowth.INIT.dishes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,12 +11,17 @@ public class NewGrowth implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("New Growth");
 
+	public static final String MOD_ID = "newgrowth";
+
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		//initializers
+		dishes.initialize();
+
+		LOGGER.info("The main mod initialization sections loaded fine somehow.");
 	}
 }
