@@ -1,7 +1,9 @@
 package net.linkle.newgrowth;
 
 import net.fabricmc.api.ModInitializer;
-import net.linkle.newgrowth.INIT.dishes;
+import net.linkle.newgrowth.z_INIT.blocks;
+import net.linkle.newgrowth.z_INIT.crops;
+import net.linkle.newgrowth.z_INIT.dishes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,6 +23,8 @@ public class NewGrowth implements ModInitializer {
 
 		//initializers
 		dishes.initialize();
+		crops.initialize();
+		blocks.initialize();
 
 		LOGGER.info("The main mod initialization sections loaded fine somehow.");
 	}

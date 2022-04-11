@@ -1,4 +1,4 @@
-package net.linkle.newgrowth.INIT;
+package net.linkle.newgrowth.z_INIT;
 
 import net.linkle.newgrowth.items.drinks.milk.BaseMilkBottle;
 import net.minecraft.item.Item;
@@ -13,5 +13,13 @@ public class dishes {
 
     public static void initialize() {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "milk_bottle"), MILK_BOTTLE);
+        //bottles
+        //doughs
+        //pastries & pies
+        //gold food
+        //tier 1
+        //tier 2
+        //tier 3
+
     }
 }
