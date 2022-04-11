@@ -28,43 +28,19 @@ import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.stateprovider.WeightedBlockStateProvider;
 
 public class Util {
-    public static Item register(String ID, Item item) {
-        return Registry.register(Registry.ITEM, newId(ID), item);
-    }
-
-    public static Block register(String ID, Block block) {
-        return Registry.register(Registry.BLOCK, newId(ID), block);
-    }
-
-    public static void register(String ID, BlockItem item) {
-        var id = newId(ID);
-        Registry.register(Registry.BLOCK, id, item.getBlock());
-        Registry.register(Registry.ITEM, id, item);
-    }
-
-    public static void registerWithItem(String ID, Block block, Item.Settings settings) {
-        var id = newId(ID);
-        Registry.register(Registry.BLOCK, id, block);
-        Registry.register(Registry.ITEM, id, new BlockItem(block, settings));
-    }
-
     public static boolean inWater(ItemPlacementContext context) {
         return context.getWorld().getFluidState(context.getBlockPos()).getFluid() == Fluids.WATER;
     }
 
-    public static RegistryKey<PlacedFeature> register(String id, ConfiguredFeature<?, ?> config,
-                                                      PlacementModifier... mods) {
-        return register(id, config, List.of(mods));
-    }
-
-    public static RegistryKey<PlacedFeature> register(String id, ConfiguredFeature<?, ?> config,
-                                                      List<PlacementModifier> mods) {
+    /*
+    private static RegistryKey<PlacedFeature> register(String id, ConfiguredFeature<?, ?> config,
+            List<PlacementModifier> mods) {
         var place = config.withPlacement(mods);
         var identifier = newId(id);
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, identifier, config);
         Registry.register(BuiltinRegistries.PLACED_FEATURE, identifier, place);
         return RegistryKey.of(Registry.PLACED_FEATURE_KEY, identifier);
-    }
+    } */
 
     public static BlockStateProvider randomHoriFacing(BlockState state) {
         var builder = new DataPool.Builder<BlockState>();

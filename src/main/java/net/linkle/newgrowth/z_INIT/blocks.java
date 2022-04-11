@@ -1,6 +1,7 @@
 package net.linkle.newgrowth.z_INIT;
 
 import net.linkle.newgrowth.blocks.stone_blocks.StoneBlock;
+import net.linkle.newgrowth.utils.Reg;
 import net.linkle.newgrowth.utils.Util;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -19,7 +20,7 @@ public class blocks {
     public static void initialize() {
         var testGroup = new Item.Settings().group(TEST_GROUP);
 
-        Util.registerWithItem("salt_ore", SALT_ORE, testGroup);
-        Util.registerWithItem("salt_block", SALT_BLOCK, testGroup);
+        Reg.registerWithItem("salt_ore", SALT_ORE, testGroup);
+        Reg.registerWithItem("salt_block", SALT_BLOCK,testGroup);
     }
 }
