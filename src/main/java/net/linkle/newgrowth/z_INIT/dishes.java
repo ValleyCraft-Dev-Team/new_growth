@@ -2,6 +2,8 @@ package net.linkle.newgrowth.z_INIT;
 
 import net.linkle.newgrowth.items.drinks.milk.BaseMilkBottle;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.recipe.BrewingRecipeRegistry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -19,6 +21,6 @@ public class dishes {
         //gold food
         //tier 1
         //tier 2
-        //tier 3
+        //tier 3}
     }
 }

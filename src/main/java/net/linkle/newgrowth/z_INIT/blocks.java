@@ -21,6 +21,8 @@ public class blocks {
         var testGroup = new Item.Settings().group(TEST_GROUP);
 
         Reg.registerWithItem("salt_ore", SALT_ORE, testGroup);
+        Reg.registerWithItem("nether_salt_ore", NETHER_SALT, testGroup);
         Reg.registerWithItem("salt_block", SALT_BLOCK,testGroup);
+        Reg.registerWithItem("nether_coal_ore", NETHER_COAL_ORE,testGroup);
     }
 }
