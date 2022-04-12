@@ -8,9 +8,9 @@ import net.minecraft.block.OreBlock;
 import net.minecraft.item.Item;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
-import static net.linkle.newgrowth.z_INIT.Groups.TEST_GROUP;
+import static net.linkle.newgrowth.z_INIT.NG_Groups.TEST_GROUP;
 
-public class VBlocks {
+public class NG_Blocks {
     public static final Block SALT_ORE = new OreBlock(Block.Settings.copy(Blocks.COAL_ORE), UniformIntProvider.create(0, 2));
     public static final Block SALT_BLOCK = new StoneBlock();
     public static final Block NETHER_SALT = new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(0, 2));

@@ -1,6 +1,6 @@
 package net.linkle.newgrowth.z_INIT;
 
-public class VCrops {
+public class NG_Crops {
     public static void initialize() {
     }
 }

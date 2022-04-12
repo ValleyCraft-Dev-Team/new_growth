@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
-public class Groups {
+public class NG_Groups {
     public static final ItemGroup TEST_GROUP = FabricItemGroupBuilder.create(
             new Identifier(NewGrowth.MOD_ID, "test_group")).icon(() -> new ItemStack(Items.BREAD)).build();
 
