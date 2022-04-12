@@ -1,13 +1,13 @@
-package net.linkle.newgrowth.items.food_items.tier_3_dishes;
+package net.linkle.newgrowth.items.foods.tier3dishes;
 
+import net.linkle.newgrowth.items.foods.BaseFood;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.world.World;
 
-public class BaseTierThreeBottle extends Item {
+public class BaseTierThreeBottle extends BaseFood {
     public BaseTierThreeBottle(Settings settings) {
         super(settings);
     }

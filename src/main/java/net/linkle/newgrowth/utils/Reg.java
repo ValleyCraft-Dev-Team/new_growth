@@ -33,7 +33,7 @@ public class Reg {
 
     public static void registerWithItem(String id, Block block, Item.Settings settings) {
         var identifier = newId(id);
-        block = Registry.register(Registry.BLOCK, identifier, block);
+        Registry.register(Registry.BLOCK, identifier, block);
         Registry.register(Registry.ITEM, identifier, new BlockItem(block, settings));
     }
 

@@ -1,4 +1,4 @@
-package net.linkle.newgrowth.items.drinks.milk;
+package net.linkle.newgrowth.items.drinks;
 
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;

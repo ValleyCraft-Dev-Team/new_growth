@@ -28,6 +28,9 @@
   "entrypoints": {
     "main": [
       "net.linkle.newgrowth.NewGrowth"
+    ],
+    "client": [
+      "net.linkle.newgrowth.client.Client"
     ]
   },
   "mixins": [

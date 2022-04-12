@@ -1,14 +1,12 @@
 package net.linkle.newgrowth.z_INIT;
 
-import net.linkle.newgrowth.items.drinks.milk.BaseMilkBottle;
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.recipe.BrewingRecipeRegistry;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
-
 import static net.linkle.newgrowth.NewGrowth.MOD_ID;
 import static net.minecraft.item.Items.GLASS_BOTTLE;
+
+import net.linkle.newgrowth.items.drinks.BaseMilkBottle;
+import net.minecraft.item.Item;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class dishes {
     public static final Item MILK_BOTTLE = new BaseMilkBottle(new Item.Settings().maxCount(16).recipeRemainder(GLASS_BOTTLE));

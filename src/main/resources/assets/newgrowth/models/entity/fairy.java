@@ -2,6 +2,8 @@
 // Exported for Minecraft version 1.17
 // Paste this class into your mod and generate all required imports
 
+/* Commented because it's causing errors on my IDE (Eclipse)
+
 package com.example.mod;
 
 public class custom_model extends SinglePartEntityModel<Entity> {
@@ -70,4 +72,4 @@ public class custom_model extends SinglePartEntityModel<Entity> {
     }
 
     
-}
+} */
