@@ -1,9 +1,9 @@
 {
-  "name": "Nazok's Journal",
+  "name": "Gweyir's Journal",
   "landing_text": "LANDING TEXT",
   "version": 0,
   "book_texture": "patchouli:textures/gui/book_purple.png",
-  "model": "newgrowth:secrets_book_vol_1",
-  "subtitle": "Doctor Nazok",
+  "model": "newgrowth:book_journal_gweyir",
+  "subtitle": "Wandering Researcher Gweyir",
   "creative_tab": "newgrowth.test_group"
 }

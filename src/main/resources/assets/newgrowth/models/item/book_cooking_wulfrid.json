@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "newgrowth:item/books/recipe_book_vol_4"
+    "layer0": "newgrowth:item/books/cooking_wulfrid"
   }
 }

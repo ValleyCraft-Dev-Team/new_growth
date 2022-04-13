@@ -61,7 +61,7 @@ public class NG_Dishes {
     public static final Item SWEET_CHICKEN_RISOTTO = new BaseTierThreeBowl(settings().maxCount(1), 4, 2, StatusEffects.REGENERATION);
 
     public static void initialize() {
-        Reg.register("milk_bottle", MILK_BOTTLE);
+        Reg.register("milk", MILK_BOTTLE);
         // bottles
         // doughs
         // pastries & pies

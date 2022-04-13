@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "newgrowth:item/books/ancient_book"
+    "layer0": "newgrowth:item/books/journal_gweyir"
   }
 }
