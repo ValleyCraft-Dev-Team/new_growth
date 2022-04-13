@@ -17,8 +17,8 @@ public class FoodStatusEffect {
         }
     }
 
-    public void addEffect(StatusEffectInstance effect) {
-        addEffect(effect, 1);
+    public FoodStatusEffect addEffect(StatusEffectInstance effect) {
+        return addEffect(effect, 1);
     }
 
     public FoodStatusEffect addEffect(StatusEffectInstance effect, float chance) {
