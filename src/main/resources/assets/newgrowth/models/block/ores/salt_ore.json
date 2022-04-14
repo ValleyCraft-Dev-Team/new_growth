@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "newgrowth:block/ores/salt_ore"
+  }
+}

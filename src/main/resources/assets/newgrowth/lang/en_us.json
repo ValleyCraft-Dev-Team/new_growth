@@ -40,6 +40,10 @@
   "item.newgrowth.spicy_beef_risotto": "Spicy Beef Risotto",
   "item.newgrowth.sweet_chicken_risotto": "Sweet Chicken Risotto",
 
-  "block.newgrowth.jar": "Clay Jar"
-
+  "block.newgrowth.jar": "Clay Jar",
+  "block.newgrowth.charcoal_block": "Charcoal Block",
+  "block.newgrowth.salt_block": "Salt Block",
+  "block.newgrowth.nether_salt_ore": "Nether Salt Ore",
+  "block.newgrowth.salt_ore": "Salt Ore",
+  "block.newgrowth.nether_coal_ore": "Nether Coal Ore"
 }

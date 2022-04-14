@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "newgrowth:block/ores/nether_coal_ore"
+    }
+  }
+}

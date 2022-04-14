@@ -3,7 +3,7 @@
   "id": "newgrowth",
   "version": "${version}",
 
-  "name": "New Growth",
+  "name": "New Growth (Name is Temporary)",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Linkle",
@@ -30,7 +30,7 @@
       "net.linkle.newgrowth.NewGrowth"
     ],
     "client": [
-      "net.linkle.newgrowth.client.Client"
+      "net.linkle.newgrowth.z_INIT.Client"
     ]
   },
   "mixins": [
