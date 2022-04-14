@@ -4,6 +4,6 @@
   "version": 0,
   "book_texture": "patchouli:textures/gui/book_cyan.png",
   "model": "newgrowth:book_cooking_estrid",
-  "subtitle": "Farmer Estrid",
+  "subtitle": "Farmer Estrid of the Dryads",
   "creative_tab": "newgrowth.test_group"
 }

@@ -3,7 +3,7 @@
   "landing_text": "LANDING TEXT",
   "version": 0,
   "book_texture": "patchouli:textures/gui/book_purple.png",
-  "model": "newgrowth:book_journal_gweyir",
+  "model": "newgrowth:book_ancient",
   "subtitle": "Wandering Researcher Gweyir",
   "creative_tab": "newgrowth.test_group"
 }

@@ -3,7 +3,7 @@
   "landing_text": "LANDING TEXT",
   "version": 0,
   "book_texture": "patchouli:textures/gui/book_brown.png",
-  "model": "newgrowth:book_ancient",
-  "subtitle": "Mathilda, Lady of the Sky",
+  "model": "newgrowth:book_journal_gweyir",
+  "subtitle": "Mathilda, Lady of the Deep",
   "creative_tab": "newgrowth.test_group"
 }
