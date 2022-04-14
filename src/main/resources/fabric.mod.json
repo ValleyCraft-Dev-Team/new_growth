@@ -30,7 +30,7 @@
       "net.linkle.newgrowth.NewGrowth"
     ],
     "client": [
-      "net.linkle.newgrowth.z_INIT.Client"
+      "net.linkle.newgrowth.client.Client"
     ]
   },
   "mixins": [
