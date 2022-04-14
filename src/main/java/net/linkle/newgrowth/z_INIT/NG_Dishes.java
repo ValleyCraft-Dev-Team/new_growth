@@ -15,6 +15,39 @@ import net.minecraft.item.Item;
 public class NG_Dishes {
     public static final Item MILK_BOTTLE = new BaseMilkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE));
     
+    // bakes
+    public static final Item BAKED_APPLE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_BEET = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_CARROT = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_ENDURA_CARROT = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_FIRE_PEPPER = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_GLOW_BERRIES = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_HEARTY_BEET = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_MELON_SLICE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_ONION = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_PUMPKIN_SLICE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_SEEDS = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_SWEET_BERRIES = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item STEAMED_RICE = new BaseGoldenFood(settings(), 4, 2);
+    
+    // doughs
+    public static final Item APPLE_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BREAD_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item CAKE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item CHORUS_FRUIT_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item GLOW_BERRY_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item HARDTACK_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item PUMPKIN_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item SWEET_BERRY_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    
+    // pastries & pies
+    public static final Item APPLE_PIE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item CAKE_SLICE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item CHORUS_FRUIT_PIE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item GLOW_BERRY_PIE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item HARDTACK = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item SWEET_BERRY_PIE = new BaseGoldenFood(settings(), 4, 2);
+    
     // golden foods
     public static final Item GOLDEN_BEET = new BaseGoldenFood(settings(), 4, 2);
     public static final Item GOLDEN_CHORUS_FRUIT = new BaseGoldenFood(settings(), 4, 2);
@@ -63,8 +96,39 @@ public class NG_Dishes {
     public static void initialize() {
         Reg.register("milk", MILK_BOTTLE);
         // bottles
+        
+        // bakes
+        Reg.register("baked_apple", BAKED_APPLE);
+        Reg.register("baked_beet", BAKED_BEET);
+        Reg.register("baked_carrot", BAKED_CARROT);
+        Reg.register("baked_endura_carrot", BAKED_ENDURA_CARROT);
+        Reg.register("baked_fire_pepper", BAKED_FIRE_PEPPER);
+        Reg.register("baked_glow_berries", BAKED_GLOW_BERRIES);
+        Reg.register("baked_hearty_beet", BAKED_HEARTY_BEET);
+        Reg.register("baked_melon_slice", BAKED_MELON_SLICE);
+        Reg.register("baked_onion", BAKED_ONION);
+        Reg.register("baked_pumpkin_slice", BAKED_PUMPKIN_SLICE);
+        Reg.register("baked_seeds", BAKED_SEEDS);
+        Reg.register("baked_sweet_berries", BAKED_SWEET_BERRIES);
+        Reg.register("steamed_rice", STEAMED_RICE);
+        
         // doughs
+        Reg.register("apple_pie_dough", APPLE_PIE_DOUGH);
+        Reg.register("bread_dough", BREAD_DOUGH);
+        Reg.register("cake_dough", CAKE_DOUGH);
+        Reg.register("chorus_fruit_pie_dough", CHORUS_FRUIT_PIE_DOUGH);
+        Reg.register("glow_berry_pie_dough", GLOW_BERRY_PIE_DOUGH);
+        Reg.register("hardtack_dough", HARDTACK_DOUGH);
+        Reg.register("pumpkin_pie_dough", PUMPKIN_PIE_DOUGH);
+        Reg.register("sweet_berry_pie_dough", SWEET_BERRY_PIE_DOUGH);
+        
         // pastries & pies
+        Reg.register("apple_pie", APPLE_PIE);
+        Reg.register("cake_slice", CAKE_SLICE);
+        Reg.register("chorus_fruit_pie", CHORUS_FRUIT_PIE);
+        Reg.register("glow_berry_pie", GLOW_BERRY_PIE);
+        Reg.register("hardtack", HARDTACK);
+        Reg.register("sweet_berry_pie", SWEET_BERRY_PIE);
         
         // golden foods
         Reg.register("golden_beet", GOLDEN_BEET);
