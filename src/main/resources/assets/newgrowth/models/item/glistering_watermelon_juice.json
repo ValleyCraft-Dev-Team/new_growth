@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "newgrowth:item/food/golden/glistering_watermelon_juice"
+  }
+}

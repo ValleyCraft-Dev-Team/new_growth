@@ -2,53 +2,55 @@ package net.linkle.newgrowth.z_INIT;
 
 import static net.minecraft.item.Items.GLASS_BOTTLE;
 
-import net.linkle.newgrowth.items.drinks.BaseMilkBottle;
+import net.linkle.newgrowth.items.drinks.BaseDrinkBottle;
+import net.linkle.newgrowth.items.drinks.MilkBottle;
+import net.linkle.newgrowth.items.foods.BaseBowl;
+import net.linkle.newgrowth.items.foods.BaseFood;
 import net.linkle.newgrowth.items.foods.BaseGoldenFood;
 import net.linkle.newgrowth.items.foods.tier1dishes.BaseTierOneNormal;
 import net.linkle.newgrowth.items.foods.tier2dishes.BaseTierTwoNormal;
 import net.linkle.newgrowth.items.foods.tier3dishes.BaseTierThreeBowl;
 import net.linkle.newgrowth.utils.Reg;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
 
 public class NG_Dishes {
-    public static final Item MILK_BOTTLE = new BaseMilkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE));
     
     // bakes
-    public static final Item BAKED_APPLE = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_BEET = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_CARROT = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_ENDURA_CARROT = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_FIRE_PEPPER = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_GLOW_BERRIES = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_HEARTY_BEET = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_MELON_SLICE = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_ONION = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_PUMPKIN_SLICE = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_SEEDS = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BAKED_SWEET_BERRIES = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item STEAMED_RICE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item BAKED_APPLE = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_BEET = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_CARROT = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_ENDURA_CARROT = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_FIRE_PEPPER = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_GLOW_BERRIES = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_HEARTY_BEET = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_MELON_SLICE = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_ONION = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_PUMPKIN_SLICE = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_SEEDS = new BaseFood(settings(), 4, 2);
+    public static final Item BAKED_SWEET_BERRIES = new BaseFood(settings(), 4, 2);
+    public static final Item STEAMED_RICE = new BaseFood(settings(), 4, 2);
     
     // doughs
-    public static final Item APPLE_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item BREAD_DOUGH = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item CAKE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item CHORUS_FRUIT_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item GLOW_BERRY_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item HARDTACK_DOUGH = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item PUMPKIN_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item SWEET_BERRY_PIE_DOUGH = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item APPLE_PIE_DOUGH = new BaseFood(settings(), 4, 2);
+    public static final Item BREAD_DOUGH = new BaseFood(settings(), 4, 2);
+    public static final Item CAKE_DOUGH = new BaseFood(settings(), 4, 2);
+    public static final Item CHORUS_FRUIT_PIE_DOUGH = new BaseFood(settings(), 4, 2);
+    public static final Item GLOW_BERRY_PIE_DOUGH = new BaseFood(settings(), 4, 2);
+    public static final Item HARDTACK_DOUGH = new BaseFood(settings(), 4, 2);
+    public static final Item PUMPKIN_PIE_DOUGH = new BaseFood(settings(), 4, 2);
+    public static final Item SWEET_BERRY_PIE_DOUGH = new BaseFood(settings(), 4, 2);
     
     // pastries & pies
-    public static final Item APPLE_PIE = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item CAKE_SLICE = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item CHORUS_FRUIT_PIE = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item GLOW_BERRY_PIE = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item HARDTACK = new BaseGoldenFood(settings(), 4, 2);
-    public static final Item SWEET_BERRY_PIE = new BaseGoldenFood(settings(), 4, 2);
+    public static final Item APPLE_PIE = new BaseFood(settings(), 4, 2);
+    public static final Item CAKE_SLICE = new BaseFood(settings(), 4, 2);
+    public static final Item CHORUS_FRUIT_PIE = new BaseFood(settings(), 4, 2);
+    public static final Item GLOW_BERRY_PIE = new BaseFood(settings(), 4, 2);
+    public static final Item HARDTACK = new BaseFood(settings(), 4, 2);
+    public static final Item SWEET_BERRY_PIE = new BaseFood(settings(), 4, 2);
     
     // golden foods
+    public static final Item GLISTERING_WATERMELON_JUICE = new BaseDrinkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE), 4, 2);
     public static final Item GOLDEN_BEET = new BaseGoldenFood(settings(), 4, 2);
     public static final Item GOLDEN_CHORUS_FRUIT = new BaseGoldenFood(settings(), 4, 2);
     public static final Item GOLDEN_ENDURA_CARROT = new BaseGoldenFood(settings(), 4, 2);
@@ -92,10 +94,56 @@ public class NG_Dishes {
     public static final Item SHIVERCAP_STIR_FRY = new BaseTierThreeBowl(settings().maxCount(1), 4, 2, StatusEffects.FIRE_RESISTANCE);
     public static final Item SPICY_BEEF_RISOTTO = new BaseTierThreeBowl(settings().maxCount(1), 4, 2, StatusEffects.HASTE);
     public static final Item SWEET_CHICKEN_RISOTTO = new BaseTierThreeBowl(settings().maxCount(1), 4, 2, StatusEffects.REGENERATION);
+    
+    // misc foods
+    public static final Item COOKED_EGG = new BaseBowl(settings(), 4, 2);
+    public static final Item FRUIT_MIX = new BaseBowl(settings(), 4, 2);
+    public static final Item FUNGUS_STEW = new BaseBowl(settings(), 4, 2);
+    public static final Item PUMPKIN_SOUP = new BaseBowl(settings(), 4, 2);
+    public static final Item RAW_EGG = new BaseBowl(settings(), 4, 2);
+    public static final Item SAVORY_BREAKFAST = new BaseBowl(settings(), 4, 2);
+    public static final Item SLIME_SOUP = new BaseBowl(settings(), 4, 2);
+    public static final Item SUSPICIOUS_STEW = new BaseBowl(settings(), 4, 2);
+    public static final Item VEGETABLE_MIX = new BaseBowl(settings(), 4, 2);
+    public static final Item COOKED_BACON = new BaseFood(settings(), 4, 2);
+    public static final Item MUSHROOM_SKEWER = new BaseFood(settings(), 4, 2);
+    public static final Item PUMPKIN_SLICE = new BaseFood(settings(), 4, 2);
+    public static final Item RAW_BACON = new BaseFood(settings(), 4, 2);
+    public static final Item SAUTEED_EYES_AND_MUSHROOMS = new BaseFood(settings(), 4, 2);
+    
+    // bottles
+    public static final Item MILK = new MilkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE));
+    public static final Item APPLE_JUICE = new BaseDrinkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE), 4, 2);
+    public static final Item CHOCOLATE_MILK = new BaseDrinkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE), 4, 2);
+    public static final Item CHORUS_FRUIT_JUICE = new BaseDrinkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE), 4, 2);
+    public static final Item SWEET_BERRY_JUICE = new BaseDrinkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE), 4, 2);
+    public static final Item WARM_PUMPKIN_SOUP = new BaseDrinkBottle(settings().maxCount(16).recipeRemainder(GLASS_BOTTLE), 4, 2);
 
     public static void initialize() {
-        Reg.register("milk", MILK_BOTTLE);
+        
         // bottles
+        Reg.register("milk", MILK);
+        Reg.register("apple_juice", APPLE_JUICE);
+        Reg.register("chocolate_milk", CHOCOLATE_MILK);
+        Reg.register("chorus_fruit_juice", CHORUS_FRUIT_JUICE);
+        Reg.register("sweet_berry_juice", SWEET_BERRY_JUICE);
+        Reg.register("warm_pumpkin_soup", WARM_PUMPKIN_SOUP);
+        
+        // misc foods
+        Reg.register("cooked_egg", COOKED_EGG);
+        Reg.register("fruit_mix", FRUIT_MIX);
+        Reg.register("fungus_stew", FUNGUS_STEW);
+        Reg.register("pumpkin_soup", PUMPKIN_SOUP);
+        Reg.register("raw_egg", RAW_EGG);
+        Reg.register("savory_breakfast", SAVORY_BREAKFAST);
+        Reg.register("slime_soup", SLIME_SOUP);
+        Reg.register("suspicious_stew", SUSPICIOUS_STEW);
+        Reg.register("vegetable_mix", VEGETABLE_MIX);
+        Reg.register("cooked_bacon", COOKED_BACON);
+        Reg.register("mushroom_skewer", MUSHROOM_SKEWER);
+        Reg.register("pumpkin_slice", PUMPKIN_SLICE);
+        Reg.register("raw_bacon", RAW_BACON);
+        Reg.register("sauteed_eyes_and_mushrooms", SAUTEED_EYES_AND_MUSHROOMS);
         
         // bakes
         Reg.register("baked_apple", BAKED_APPLE);
@@ -131,6 +179,7 @@ public class NG_Dishes {
         Reg.register("sweet_berry_pie", SWEET_BERRY_PIE);
         
         // golden foods
+        Reg.register("glistering_watermelon_juice", GLISTERING_WATERMELON_JUICE);
         Reg.register("golden_beet", GOLDEN_BEET);
         Reg.register("golden_chorus_fruit", GOLDEN_CHORUS_FRUIT);
         Reg.register("golden_endura_carrot", GOLDEN_ENDURA_CARROT);
