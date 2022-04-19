@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column_horizontal",
+  "textures": {
+    "end": "newgrowth:block/compact/sugarcane_bale_top",
+    "side": "newgrowth:block/compact/sugarcane_bale_side"
+  }
+}

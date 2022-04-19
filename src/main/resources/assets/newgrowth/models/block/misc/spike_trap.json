@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "newgrowth:block/misc/spike_trap"
+  }
+}

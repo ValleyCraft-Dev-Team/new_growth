@@ -21,8 +21,8 @@ public class RenderLayers {
         // You can't use multiple RenderLayer on a single block. It doesn't work.
         // I Removed the JAR block because it doesn't contains any transparent pixels in their texture.
         
-        //put(BLOCK, cullout); 
-        
+        put(NG_Blocks.AMETHYST_GLASS, translucent);
+        put(NG_Blocks.SPIKE_TRAP, cullout); 
     }
     
     private static void put(Block block, RenderLayer layer) {

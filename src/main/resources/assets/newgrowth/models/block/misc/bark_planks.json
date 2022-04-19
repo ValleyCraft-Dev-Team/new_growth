@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "newgrowth:block/misc/bark_planks"
+  }
+}

@@ -1,4 +1,4 @@
-package net.linkle.newgrowth.blocks.stone_blocks;
+package net.linkle.newgrowth.blocks.stones;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

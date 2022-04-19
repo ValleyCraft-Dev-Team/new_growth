@@ -109,5 +109,11 @@
   "block.newgrowth.salt_block": "Salt Block",
   "block.newgrowth.nether_salt_ore": "Nether Salt Ore",
   "block.newgrowth.salt_ore": "Salt Ore",
-  "block.newgrowth.nether_coal_ore": "Nether Coal Ore"
+  "block.newgrowth.fiber_bale": "Fiber Bale",
+  "block.newgrowth.sugarcane_bale": "Sugarcane Bale",
+  "block.newgrowth.nether_coal_ore": "Nether Coal Ore",
+  
+  "block.newgrowth.amethyst_glass": "Amethyst Glass",
+  "block.newgrowth.bark_planks": "Bark Planks",
+  "block.newgrowth.spike_trap": "Spike Trap"
 }

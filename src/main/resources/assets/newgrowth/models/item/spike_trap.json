@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "newgrowth:item/misc/spike_trap"
+  }
+}
