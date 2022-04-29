@@ -1,5 +1,7 @@
 package net.linkle.newgrowth.z_INIT;
 
+import static net.linkle.newgrowth.z_INIT.NG_Blocks.*;
+
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -21,8 +23,26 @@ public class RenderLayers {
         // You can't use multiple RenderLayer on a single block. It doesn't work.
         // I Removed the JAR block because it doesn't contains any transparent pixels in their texture.
         
-        put(NG_Blocks.AMETHYST_GLASS, translucent);
-        put(NG_Blocks.SPIKE_TRAP, cullout); 
+        put(AMETHYST_GLASS, translucent);
+        put(SPIKE_TRAP, cullout);
+        
+        put(SHORT_LILAC, cullout);
+        put(SHORT_PEONY, cullout);
+        put(SHORT_ROSE_BUSH, cullout);
+        put(SHORT_SUNFLOWER, cullout);
+        put(SILENT_FAIRY_FLOWER, cullout);
+        
+        put(WILD_AMETHYSTLE, cullout);
+        put(WILD_ANCIENT_FLOWER, cullout);
+        put(WILD_BEET, cullout);
+        put(WILD_CARROT, cullout);
+        put(WILD_CLAY_SPROUTLET, cullout);
+        put(WILD_FIRE_PEPPER, cullout);
+        put(WILD_ONION, cullout);
+        put(WILD_POTATO, cullout);
+        put(WILD_PUFF_BALL, cullout);
+        put(WILD_RICE, cullout);
+        put(WILD_WHEAT, cullout);
     }
     
     private static void put(Block block, RenderLayer layer) {

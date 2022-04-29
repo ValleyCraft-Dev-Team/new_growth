@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:block/lilac_top",
+    "layer1": "newgrowth:item/small_text"
+  }
+}

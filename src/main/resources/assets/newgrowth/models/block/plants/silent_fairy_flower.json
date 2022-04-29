@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "newgrowth:block/plants/silent_fairy_flower"
+  }
+}

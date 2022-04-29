@@ -115,5 +115,23 @@
   
   "block.newgrowth.amethyst_glass": "Amethyst Glass",
   "block.newgrowth.bark_planks": "Bark Planks",
-  "block.newgrowth.spike_trap": "Spike Trap"
+  "block.newgrowth.spike_trap": "Spike Trap",
+  
+  "block.newgrowth.short_lilac": "Short Lilac",
+  "block.newgrowth.short_peony": "Short Peony",
+  "block.newgrowth.short_rose_bush": "Short Rose Bush",
+  "block.newgrowth.short_sunflower": "Short Sunflower",
+  "block.newgrowth.silent_fairy_flower": "Silent Fairy Flower",
+  
+  "block.newgrowth.wild_amethystle": "Wild Amethystle",
+  "block.newgrowth.wild_ancient_flower": "Wild Ancient Flower",
+  "block.newgrowth.wild_beet": "Wild Beet",
+  "block.newgrowth.wild_carrot": "Wild Carrot",
+  "block.newgrowth.wild_clay_sproutlet": "Wild Clay Pproutlet",
+  "block.newgrowth.wild_fire_pepper": "Wild Fire Pepper",
+  "block.newgrowth.wild_onion": "Wild Onion",
+  "block.newgrowth.wild_potato": "Wild Potato",
+  "block.newgrowth.wild_puff_ball": "Wild Puff Ball",
+  "block.newgrowth.wild_rice": "Wild Rice",
+  "block.newgrowth.wild_wheat": "Wild Wheat"
 }

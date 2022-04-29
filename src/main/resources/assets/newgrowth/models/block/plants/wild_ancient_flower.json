@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "newgrowth:block/plants/wild_ancient_flower"
+  }
+}
