@@ -1,0 +1,6 @@
+{
+  "parent": "newgrowth:block/crops/cross_crop",
+  "textures": {
+    "crop": "newgrowth:block/crops/ancient_flower_stage0"
+  }
+}

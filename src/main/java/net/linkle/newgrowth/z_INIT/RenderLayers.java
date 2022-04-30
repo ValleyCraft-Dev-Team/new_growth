@@ -1,6 +1,7 @@
 package net.linkle.newgrowth.z_INIT;
 
 import static net.linkle.newgrowth.z_INIT.NG_Blocks.*;
+import static net.linkle.newgrowth.z_INIT.NG_Crops.*;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -31,6 +32,14 @@ public class RenderLayers {
         put(SHORT_ROSE_BUSH, cullout);
         put(SHORT_SUNFLOWER, cullout);
         put(SILENT_FAIRY_FLOWER, cullout);
+        
+        put(AMETHYSTLES, cullout);
+        put(ANCIENT_FLOWERS, cullout);
+        put(CLAY_SPROUTLETS, cullout);
+        put(FIRE_PEPPERS, cullout);
+        put(ONIONS, cullout);
+        put(PUFF_BALLS, cullout);
+        put(WILD_RICES, cullout);
         
         put(WILD_AMETHYSTLE, cullout);
         put(WILD_ANCIENT_FLOWER, cullout);

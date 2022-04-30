@@ -2,6 +2,7 @@ package net.linkle.newgrowth.z_INIT;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.linkle.newgrowth.blocks.containers.JarBlock;
+import net.linkle.newgrowth.blocks.crops.CropBlocks;
 import net.linkle.newgrowth.blocks.misc.SpikeTrapBlock;
 import net.linkle.newgrowth.blocks.plants.Plant;
 import net.linkle.newgrowth.blocks.stones.StoneBlock;
